@@ -4,7 +4,7 @@
 namespace App\exception;
 
 
-class ExceptionList
+class InvalidArgumentException
 {
 
 }
