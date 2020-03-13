@@ -4,7 +4,7 @@
 namespace App\exception;
 
 
-class GenericException
+class GenericException extends \Exception
 {
 
 }
