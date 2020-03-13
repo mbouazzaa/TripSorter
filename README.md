@@ -16,11 +16,12 @@ composer install
 ## Usage
 ### Run the project
 To test the project with some predefined values you can run the following command in 
-the root directory
+the public directory
 ```php
-php index.php
+php public/index.php
 ```
 ### Code samples
+````````
 use App\{
     Exceptions\GenericException, SortingAlgorithms\Sorter, Trip
 };
@@ -88,6 +89,7 @@ try {
     // treat exception
 }
 echo PHP_EOL;
+
 ```
 ##### Sample Output
 The final string output will be a BoardingPassCollection that implements the magic method 
